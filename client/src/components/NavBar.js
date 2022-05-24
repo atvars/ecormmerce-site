@@ -7,6 +7,7 @@ import { Button } from 'react-bootstrap';
 import { observer } from 'mobx-react-lite';
 import Container from 'react-bootstrap/Container';
 
+
 const NavBar = () => {
   const { user } = useContext(Context);
   return (
